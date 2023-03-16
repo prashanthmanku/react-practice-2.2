@@ -1,1 +1,72 @@
 /* Write your code here. */
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+.notifications-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background-size: cover;
+  width: 80%;
+  /* width: 100%; */
+}
+.alining {
+  display: flex;
+  justify-content: center;
+}
+.notifications-container {
+}
+.notification-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.heading {
+  align-self: center;
+}
+
+img {
+  width: 20px;
+  /* padding-right: 20px; */
+  margin-left: 20px;
+  margin-right: 16px;
+}
+.notification-text {
+  color: #ffffff;
+  font-size: 17px;
+}
+.primary-bg {
+  background-color: #0b69ff;
+}
+.success-bg {
+  background-color: #2dca73;
+}
+.warning-bg {
+  background-color: #ffb800;
+}
+.error-bg {
+  background-color: #ff0b37;
+}
+@media screen and (min-width: 768px) {
+  .notifications-bg-container {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .notifications-bg-container {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .notifications-bg-container {
+    width: 30%;
+  }
+}
